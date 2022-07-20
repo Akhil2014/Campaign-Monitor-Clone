@@ -4,12 +4,9 @@ import {
   Divider,
   Flex,
   Heading,
-  Spacer,
   Stack,
   HStack,
   Text,
-  Container,
-  VStack,
 } from "@chakra-ui/react";
 import { SiCampaignmonitor } from "react-icons/si";
 import { BsLinkedin, BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
@@ -17,7 +14,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Box mt="75px" w="100vw" h="610px" bg="#111324">
+    <Box w="100%" h="610px" bg="#111324">
       <Box h="100%" w="85%" m="auto" pt="40px">
         <Flex w="85vw" h="32vh" justifyContent="space-between">
           <Stack w="300px" h="100%" flexDirection="row" pt="10px" gap="5px">
@@ -129,16 +126,16 @@ const Footer = () => {
         <Flex m="auto" w="85vw" h="35vh" mt="20px" direction="column" gap="50px">
           <Flex w="100%" h="70px" justifyContent="space-between" >
             <Box>
-              <Button colorScheme="purple" h="60px" w="230px" color="white">
+              <Button borderRadius={3} colorScheme="purple" h="60px" w="230px" color="white">
                 Get the latest content
               </Button>
             </Box>
             <HStack w="50%" h="30px" justifyContent="space-between">
               <HStack h="100%" w="150px">
-                <BsLinkedin color="gray" />
-                <BsTwitter color="gray" />
-                <BsFacebook color="gray" />
-                <BsInstagram color="gray" />
+                <BsLinkedin  cursor="pointer"  color="gray" />
+                <BsTwitter cursor="pointer"  color="gray" />
+                <BsFacebook  cursor="pointer" color="gray" />
+                <BsInstagram cursor="pointer"  color="gray" />
               </HStack>
               <HStack h="100%" w="500px">
                 <Text color="gray" fontSize="xs">

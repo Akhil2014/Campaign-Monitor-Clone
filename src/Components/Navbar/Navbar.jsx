@@ -11,7 +11,7 @@ import { SiCampaignmonitor } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <Flex w="100vw" h="78px" bg="#111324" justifyContent="space-evenly">
+    <Flex w="100%" h="78px" bg="#111324" justifyContent="space-evenly">
       <Stack pt="26px" direction="row" w="220px">
         <SiCampaignmonitor  size="24px" color="#7856ff" />{" "}
         <Heading  _hover={{cursor:"pointer"}} color="white" as="h1" size="md">
