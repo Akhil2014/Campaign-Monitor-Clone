@@ -68,42 +68,60 @@ const HomePage = () => {
           </Box>
           <HStack w="100%" h="80%">
             <Box w="25%" h="100%">
-                <Image src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/logo-strip/ripcurl-2.png?ver=2981658328797854" alt="loo" />
-                </Box> 
-            <Box w="25%" h="100%" ></Box>
-            <Box w="25%" h="100%" ></Box>
-            <Box w="25%" h="100%" ></Box>
+              <Image
+                src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/logo-strip/ripcurl-2.png?ver=2981658328797854"
+                alt="loo"
+              />
+            </Box>
+            <Box w="25%" h="100%"></Box>
+            <Box w="25%" h="100%"></Box>
+            <Box w="25%" h="100%"></Box>
           </HStack>
         </Flex>
       </Box>
       <Box w="100%" h="930px">
         <Box textAlign="center">
-            <Text p="10"fontWeight="bold" fontSize="40px">Drag and drop your way to a beautiful email.</Text>
+          <Text p="10" fontWeight="bold" fontSize="40px">
+            Drag and drop your way to a beautiful email.
+          </Text>
         </Box>
         <Flex w="100%" h="560px" bg="white" justifyContent="space-between">
-            <Spacer />
-            <Box pt="30px" textAlign="left" w="33%" h="500px" >
-                <Text fontWeight="bold">EASY OF USE</Text>
-                <Text color="gray">Customize any template or design to showcase your brand using the simply powerful drag-and-drop email builder—no coding required.</Text>
-                <br/>
-                <Text fontWeight="bold">COMPLETE CUSTOMIZATION</Text>
-                <Text color="gray">Display your brand at its best with precise adjustments to every aspect of your campaign in the email builder.</Text>
-                <br/>
-                <Text fontWeight="bold">MOBILE OPTIMIZATION</Text>
-                <Text color="gray">Every template is responsive to mobile devices so you can send knowing your campaigns look great everywhere.</Text>
-                <br/>
-                <Text fontWeight="bold">TEMPLATE MANAGEMENT FOR TEAMS</Text>
-                <Text color="gray">Allow your email designer to lock sections of the template so that your team only updates what you want them to — ensuring your brand style and business critical information all stay intact.</Text>
-            </Box>
-            <Stack w="50%" h="500px">
-                {/* <Image /> */}
-            </Stack>
+          <Spacer />
+          <Box pt="30px" textAlign="left" w="33%" h="500px">
+            <Text fontWeight="bold">EASY OF USE</Text>
+            <Text color="gray">
+              Customize any template or design to showcase your brand using the
+              simply powerful drag-and-drop email builder—no coding required.
+            </Text>
+            <br />
+            <Text fontWeight="bold">COMPLETE CUSTOMIZATION</Text>
+            <Text color="gray">
+              Display your brand at its best with precise adjustments to every
+              aspect of your campaign in the email builder.
+            </Text>
+            <br />
+            <Text fontWeight="bold">MOBILE OPTIMIZATION</Text>
+            <Text color="gray">
+              Every template is responsive to mobile devices so you can send
+              knowing your campaigns look great everywhere.
+            </Text>
+            <br />
+            <Text fontWeight="bold">TEMPLATE MANAGEMENT FOR TEAMS</Text>
+            <Text color="gray">
+              Allow your email designer to lock sections of the template so that
+              your team only updates what you want them to — ensuring your brand
+              style and business critical information all stay intact.
+            </Text>
+          </Box>
+          <Stack w="50%" h="500px">
+            {/* <Image /> */}
+          </Stack>
         </Flex>
-        <Box  w="100%" h="200px">
-            <Box textAlign="center">
-                <Text fontSize="20px">Eager to see it in action? Take a look.</Text>
-            </Box>
-            <Box textAlign="center">
+        <Box w="100%" h="200px">
+          <Box textAlign="center">
+            <Text fontSize="20px">Eager to see it in action? Take a look.</Text>
+          </Box>
+          <Box textAlign="center">
             <Button
               borderRadius={3}
               _active="none"
@@ -116,10 +134,9 @@ const HomePage = () => {
             >
               Get started for free
             </Button>
-            </Box>
+          </Box>
         </Box>
       </Box>
-     
     </Box>
   );
 };
