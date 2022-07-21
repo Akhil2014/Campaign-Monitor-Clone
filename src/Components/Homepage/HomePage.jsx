@@ -7,12 +7,15 @@ import {
   Spacer,
   Stack,
   Text,
-  VStack,
 } from "@chakra-ui/react";
 import React from "react";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 
 const HomePage = () => {
   return (
+    <>
+    <Navbar />
     <Box w="100%" h="2000px" bg="white" pt="100px">
       <Flex w="85%" h="650px" m="auto" justifyContent="space-between">
         <Stack w="45%" h="100%" gap="30px">
@@ -29,6 +32,7 @@ const HomePage = () => {
           </Text>
           <Flex justifyContent="space-between" w="520px">
             <Button
+             position="none"
               borderRadius={3}
               _hover="none"
               h="60px"
@@ -38,6 +42,7 @@ const HomePage = () => {
               Sign up for free
             </Button>
             <Button
+             position="none"
               borderRadius={3}
               _hover={{ bg: "#7856ff" }}
               variant="outline"
@@ -50,7 +55,7 @@ const HomePage = () => {
           </Flex>
         </Stack>
         <Box w="50%" h="500px">
-          <Image w="100%" h="100%" />
+          <Image w="100%" h="100%" src="Images\img1.jpg" alt="Books" fallbackSrc='https://via.placeholder.com/150' />
         </Box>
       </Flex>
       <Box w="100%" h="300px" bg="#f6f6f7" pt="80px">
@@ -123,6 +128,7 @@ const HomePage = () => {
           </Box>
           <Box textAlign="center">
             <Button
+              position="none"
               borderRadius={3}
               _active="none"
               _hover="none"
@@ -138,6 +144,8 @@ const HomePage = () => {
         </Box>
       </Box>
     </Box>
+    <Footer />
+    </>
   );
 };
 
