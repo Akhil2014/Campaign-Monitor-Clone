@@ -8,6 +8,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { SiCampaignmonitor } from "react-icons/si";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -28,10 +29,10 @@ const Navbar = () => {
       >
         <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Features</Text>
         <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Pricing</Text>
-        <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Resources</Text>
-        <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Customers</Text>
-        <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Gallery</Text>
-        <Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Agencies</Text>
+       <NavLink to="/resource"><Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Resources</Text></NavLink> 
+       <NavLink to="/customer"><Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Customers</Text></NavLink>
+        <NavLink to="/gallery"><Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Gallery</Text></NavLink>
+        <NavLink to="/agencies"><Text _hover={{color:"#51cfdb",cursor:"pointer"}} fontSize="xl">Agencies</Text></NavLink>
       </Stack>
       <Stack color="gray.400" pt="18px"  direction="row" spacing={6} w="300px">
         <Text _hover={{color:"#51cfdb",cursor:"pointer"}} pt="5px"  fontSize="xl">Contact Us</Text>
