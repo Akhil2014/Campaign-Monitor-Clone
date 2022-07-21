@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Footer from "../Footer/Footer";
+import Tryfree from "../GalleryPage/Tryfree";
 import Navbar from "../Navbar/Navbar";
 
 const HomePage = () => {
@@ -144,6 +145,7 @@ const HomePage = () => {
         </Box>
       </Box>
     </Box>
+    <Tryfree heading="Get started with Campaign Monitor today." text="With our powerful yet easy-to-use tools, it's never been easier to make an impact with email marketing" />
     <Footer />
     </>
   );
