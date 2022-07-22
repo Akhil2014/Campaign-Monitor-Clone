@@ -8,7 +8,6 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
 import Footer from "../Footer/Footer";
 import Tryfree from "../GalleryPage/Tryfree";
 import Navbar from "../Navbar/Navbar";
