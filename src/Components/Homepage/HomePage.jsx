@@ -9,6 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import Footer from "../Footer/Footer";
+import Faq from "../GalleryPage/Faq";
 import Tryfree from "../GalleryPage/Tryfree";
 import Navbar from "../Navbar/Navbar";
 
@@ -55,7 +56,7 @@ const HomePage = () => {
           </Flex>
         </Stack>
         <Box w="50%" h="500px">
-          <Image w="100%" h="100%" src="Images\img1.jpg" alt="Books" fallbackSrc='https://via.placeholder.com/150' />
+          <Image w="100%" h="100%" src="https://images.pexels.com/photos/1684151/pexels-photo-1684151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Books" fallbackSrc='https://via.placeholder.com/150' />
         </Box>
       </Flex>
       <Box w="100%" h="300px" bg="#f6f6f7" pt="80px">
@@ -73,10 +74,6 @@ const HomePage = () => {
           </Box>
           <HStack w="100%" h="80%">
             <Box w="25%" h="100%">
-              <Image
-                src="https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/logo-strip/ripcurl-2.png?ver=2981658328797854"
-                alt="loo"
-              />
             </Box>
             <Box w="25%" h="100%"></Box>
             <Box w="25%" h="100%"></Box>
@@ -120,6 +117,10 @@ const HomePage = () => {
           </Box>
           <Stack w="50%" h="500px">
             {/* <Image /> */}
+            <Image
+                src="https://images.pexels.com/photos/2237798/pexels-photo-2237798.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="loo"
+              />
           </Stack>
         </Flex>
         <Box w="100%" h="200px">
@@ -144,6 +145,7 @@ const HomePage = () => {
         </Box>
       </Box>
     </Box>
+    <Faq />
     <Tryfree heading="Get started with Campaign Monitor today." text="With our powerful yet easy-to-use tools, it's never been easier to make an impact with email marketing" />
     <Footer />
     </>

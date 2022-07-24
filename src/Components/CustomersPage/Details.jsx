@@ -16,11 +16,11 @@ const Details = ({name,heading,title}) => {
         <Heading color="black" py="1rem" as="h2" size="xl">{heading} </Heading>
         <Text pb="2rem" color="gray" fontSize="15px"> {title} </Text>
         <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-          <GridItem w="100%" h="200" bg="blue.500" ><Image src="" alt="logo"/></GridItem>
-          <GridItem w="100%" h="200" bg="blue.500" ><Image src="" alt="logo"/></GridItem> 
-          <GridItem w="100%" h="200" bg="blue.500" ><Image src="" alt="logo"/></GridItem>
-          <GridItem w="100%" h="200" bg="blue.500" ><Image src="" alt="logo"/></GridItem>
-          <GridItem w="100%" h="200" bg="blue.500" ><Image src="" alt="logo"/></GridItem>
+          <GridItem w="100%" ><Image src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"/></GridItem>
+          <GridItem w="100%" h="200"  ><Image src="https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"/></GridItem> 
+          <GridItem w="100%" h="200"  ><Image src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"/></GridItem>
+          <GridItem w="100%" h="200"  ><Image src="https://images.pexels.com/photos/1337386/pexels-photo-1337386.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"/></GridItem>
+          <GridItem w="100%" h="200"  ><Image src="https://images.pexels.com/photos/1337384/pexels-photo-1337384.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"/></GridItem>
         </Grid>
       </Container>
     </Box>
